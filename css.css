@@ -1,0 +1,440 @@
+
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    font-family: 'Cormorant Garamond', serif;
+   
+}
+
+nav .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.heroItaly {
+    background-image: url('./photos/backgroundMain.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+.heroFrance {
+    background-image: url('./photos/frenchIcon.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+
+.heroAsia {
+    background-image: url('./photos/asianIcon.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    width: 100%;
+}
+
+.heroItaly h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.heroItaly p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.heroItaly .btn {
+    padding: 0.5rem 1.5rem;
+    border-color:white;
+    background-color:transparent;
+    color: #726a00;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Handwriting Font */
+.handwriting-fontI {
+    font-family: 'Cormorant Garamond', cursive;
+    font-weight: bold;
+    font-size: 250%;
+    color: #f4e7e7;
+}
+
+
+.handwriting-fontF {
+    font-family: 'Cormorant Garamond', cursive;
+    font-weight: bold;
+    font-size: 250%;
+    color: #e8e8e8;
+}
+
+.handwriting-fontt {
+    font-family: 'Cormorant Garamond', cursive;
+    font-weight: bold;
+    font-size: 250%;
+    color: #4f4e4e;
+}
+
+/* Blog Cards Section */
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: -1rem;
+}
+
+.feature {
+    padding: 0;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.feature a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #777;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+/* Custom Text Container */
+.custom-text-container {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #fbf8f3;
+    color: #3d3d3d;
+    border-left: 6px solid #a57250;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-text-container h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #5c4033;
+    margin-bottom: 1rem;
+}
+
+.custom-text-container h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #7c6b5e;
+    margin-bottom: 0.75rem;
+}
+
+.custom-text-container p {
+    font-size: 1.1rem;
+    color: #4b4745;
+    margin-bottom: 1.5rem;
+}
+
+/* Go Back Button */
+.go-back-button {
+    margin-top: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background-color: #a57250;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.go-back-button:hover {
+    background-color: #8a6143;
+}
+
+
+
+/* Explore Now Button */
+.heroItaly .btn {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.heroItaly .btn:hover {
+    background-color: white;
+    color: #726a00;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    background-color: #f9f6f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-content {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    color: #3d3d3d;
+}
+
+.info-content h2 {
+    font-size: 2rem;
+    color: #5c4033;
+    margin-bottom: 1rem;
+}
+
+.info-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #4b4745;
+}
+
+.info-image {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Explore Now Button */
+.heroFrance .btn {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.heroFrance .btn:hover {
+    background-color: white;
+    color: #4c2a77;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    background-color: #f9f6f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-content {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    color: #3d3d3d;
+}
+
+.info-content h2 {
+    font-size: 2rem;
+    color: #4c2a77;
+    margin-bottom: 1rem;
+}
+
+.info-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #4b4745;
+}
+
+.info-image {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Explore Now Button */
+.heroAsia .btn {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.heroAsia .btn:hover {
+    background-color: white;
+    color: #2b5278;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 1200px;
+    background-color: #f9f6f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-content {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    color: #3d3d3d;
+}
+
+.info-content h2 {
+    font-size: 2rem;
+    color: #2b5278;
+    margin-bottom: 1rem;
+}
+
+.info-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #4b4745;
+}
+
+.info-image {
+    flex: 1;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+

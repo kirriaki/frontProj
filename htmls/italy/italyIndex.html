@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food History</title>
+    <link rel="stylesheet" href="/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/htmls/home.html">Food History</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <a class="nav-item nav-link link-body-emphasis active" href="/htmls/home.html">Main</a>
+              <a class="nav-item nav-link link-body-emphasis" href="/htmls/italy/italyIndex.html">Italian</a>
+              <a class="nav-item nav-link link-body-emphasis" href="/htmls/french/frenchMan.html">French</a>
+              <a class="nav-item nav-link link-body-emphasis" href="/htmls/asian/asiaDamn.html">South Korean</a>
+              <a class="nav-item nav-link link-body-emphasis" href="/htmls/quizFile/quizIndex.html">Quiz</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <div class="heroItaly">
+        <h1 class="handwriting-fontI" style="font-family: 'Cormorant Garamond', serif;">Italian Cuisine</h1>
+        <p>Discover the rich culinary heritage of Italy.</p>
+        <a href="#explore-section" class="btn">Explore Now</a>
+    </div>
+
+    <!-- Blog Cards Section -->
+    <div class="feature-container" id="explore-section">
+        <div class="feature" onmouseover="highlightCard(this)" onmouseout="resetCard(this)">
+            <img src="/photos/file.png" alt="Origins Icon">
+            <h3 class="handwriting-font" style="font-family: 'Cormorant Garamond', serif;">Origins</h3>
+            <p>Explore the historical roots of Italian cuisine.</p>
+            <a href="./originItaly.html">See more</a>
+        </div>
+        <div class="feature" onmouseover="highlightCard(this)" onmouseout="resetCard(this)">
+            <img src="/photos/file (3).png" alt="Cultural Significance Icon">
+            <h3 class="handwriting-font" style="font-family: 'Cormorant Garamond', serif;">Cultural Significance</h3>
+            <p>Discover the impact of Italian food on culture.</p>
+            <a href="./culturalItaly.html">See more</a>
+        </div>
+        <div class="feature" onmouseover="highlightCard(this)" onmouseout="resetCard(this)">
+            <img src="/photos/file (4).png" alt="Famous Dishes Icon">
+            <h3 class="handwriting-font" style="font-family: 'Cormorant Garamond', serif;">Famous Dishes and Recipes</h3>
+            <p>Learn about popular dishes and how to make them.</p>
+            <a href="./dishesItaly.html">See more</a>
+        </div>
+    </div>
+
+
+<!-- Italian Food and Tourism Section -->
+<div class="info-section">
+  <div class="info-content">
+      <h2 class="handwriting-fontI">Experience the Heart of Italy</h2>
+      <p>
+          Italy's cuisine is not just about food—it's a story of passion, tradition, and artistry. From the rolling hills of Tuscany to the bustling streets of Rome, every region boasts its own unique flavors. 
+          Italian cuisine, rooted in simplicity, emphasizes fresh, high-quality ingredients like olive oil, ripe tomatoes, and fragrant basil.
+      </p>
+      <p>
+          Beyond food, Italy is a paradise for art lovers and travelers. Discover breathtaking landmarks like the Colosseum, the Leaning Tower of Pisa, and Venice's romantic canals.
+          A visit to Italy promises an unforgettable blend of history, culture, and culinary delight.
+      </p>
+  </div>
+  <div class="info-image">
+      <img src="/photos/download.jpg " alt="Italian Food and Tourism">
+  </div>
+</div>
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
